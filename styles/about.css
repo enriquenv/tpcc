@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Rammetto+One&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #404040;
+  line-height: 1.6;
+}
+
+.about__hero {
+  background-color: #EBC9C4;
+  padding: 2rem;
+  text-align: center;
+}
+.about__hero h1 {
+  font-family: "Rammetto One", cursive;
+  font-size: 2.5rem;
+  color: #404040;
+}
+.about__content {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+@media (max-width: 908px) {
+  .about__content {
+    flex-direction: column;
+  }
+}
+.about__text {
+  flex: 1 1 500px;
+}
+.about__text h2 {
+  font-family: "Rammetto One", cursive;
+  color: #404040;
+  margin-bottom: 1rem;
+}
+.about__text p {
+  margin-bottom: 1rem;
+}
+.about__image {
+  width: 48%;
+}
+@media (max-width: 1088px) {
+  .about__image {
+    width: 37%;
+  }
+}
+@media (max-width: 908px) {
+  .about__image {
+    width: 74vw;
+  }
+}
+.about__image img {
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=about.css.map */

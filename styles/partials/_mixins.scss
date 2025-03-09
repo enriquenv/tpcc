@@ -1,0 +1,12 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin section-title {
+    font-family: $font-title;
+    color: $dark-color;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}

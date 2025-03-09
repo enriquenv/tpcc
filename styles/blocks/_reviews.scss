@@ -1,0 +1,59 @@
+.reviews {
+    padding: 2rem;
+    background-color: $primary-pink;
+
+    &__title {
+        @include section-title();
+        color: whitesmoke;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
+        @media (max-width: 768px) {
+             flex-direction: column;
+        }
+    }
+
+    &__item {
+        flex-basis: 30%;
+        background-color: $primary-pink;
+        padding: 1.5rem;
+        border: 2px solid white;
+
+        p{
+          margin-bottom: 0.5rem;
+          font-size: 0.9rem;
+        }
+
+        i {
+          font-size: 1.3rem;
+
+        }
+
+    }
+
+    &__author{
+       font-style: italic;
+       color: $dark-color;
+       font-weight: bold;
+       font-size: 0.8rem !important;
+
+    }
+
+    &__date{
+      font-style: italic;
+      color: $dark-color;
+      font-size: 0.8rem !important;
+      margin-bottom: 0;
+    }
+
+    .review-data {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+}

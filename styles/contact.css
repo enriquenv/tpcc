@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Rammetto+One&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #404040;
+  line-height: 1.6;
+}
+
+.contact__hero {
+  background-color: #EBC9C4;
+  padding: 2rem;
+  text-align: center;
+}
+.contact__hero h1 {
+  font-family: "Rammetto One", cursive;
+  font-size: 2.5rem;
+  color: #404040;
+}
+.contact__form-section {
+  padding: 2rem;
+}
+.contact__form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact__form .form__group {
+  margin-bottom: 1.5rem;
+}
+.contact__form .form__group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.contact__form .form__group input[type=text],
+.contact__form .form__group input[type=email],
+.contact__form .form__group select,
+.contact__form .form__group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #EBC9C4;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.contact__form .form__submit {
+  background-color: #689572;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+.contact__form .form__submit:hover {
+  background-color: #82A289;
+}
+
+/*# sourceMappingURL=contact.css.map */

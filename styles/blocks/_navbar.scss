@@ -1,0 +1,26 @@
+.navbar {
+    @include flex-center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+
+    &__logo {
+        font-size: 1.5rem;
+        color: $primary-pink;
+
+    }
+
+    &__links {
+       a{
+        margin-left: 1.5rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+
+        &:hover {
+            color: $primary-pink;
+        }
+       }
+    }
+}
